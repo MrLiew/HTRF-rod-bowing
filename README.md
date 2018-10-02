@@ -40,7 +40,16 @@ where:
 ```
 2. Each HTRF test folder contain the CTF input deck template: **HTRF-Test-[Name]-CTF_deck_template.inp**
 
-	 e.g. CTF input deck template for test HTRF 166 HTRF-Test-166-CTF_deck_template.inp_
+	 e.g. CTF input deck template for test HTRF 166 HTRF-Test-166-CTF_deck_template.inp
+	 
+	CTF input deck parameters:
+
+	- $GTOT: Mass flow rate, [kg/s]
+	- $AFLUX: Average linear heat rate per rod, [kW/m]
+	- $PREF: Pressure in the fluid domain, [bar]
+	- $TIN: Temperature in the fluid domain, [C]
+	- $rod_friction_model: Rod friction factor correlation
+	- $beta_coeff: single-phase turbulent mixing coefficient,
 
 3. **HTRF-Test-[Name]\log_files** :Log files for searching tube bundle power at which DNBR = 1
 
