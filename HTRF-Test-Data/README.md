@@ -1,5 +1,5 @@
 # HTRF-rod-bowing
-## HTRF database and subchannel analysis results with code COBRA-TF(CTF)
+## HTRF tests boundary conditions
 
 Original tests data from the report NP-2609-V3P1.pdf Parametric Study of CHF Data Vol.3 Part1: Critical Heat Flux Data
 URL: [http://www.epri.com/#/pages/product/NP-2609-V3P1/?lang=en](http://www.epri.com/#/pages/product/NP-2609-V3P1/?lang=en)
