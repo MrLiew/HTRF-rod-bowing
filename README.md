@@ -20,7 +20,7 @@ In this study, an assessment of subchannel code CTF v3.5 in addressing the effec
 
 
 
-	1. Folders structure:
+1. Folders structure:
 ```
 		HTRF-Test-[Name]
 		|-- HTRF-Test-[Name]-beta_[beta]
