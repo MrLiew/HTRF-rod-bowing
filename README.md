@@ -22,18 +22,25 @@ In this study, an assessment of subchannel code CTF v3.5 in addressing the effec
 
 	1. Folders structure:
 ```
-		HTRF-Test-[Test Name]
-		|-- HTRF-Test-[Test Name]-beta_[beta coefficient]
-		    |-- HTRF-[Test Name]-[ID]
-			`-- HTRF-[Test Name]-[ID]-IRFC-[Rod friction model]
-			    |-- HTRF-[Test Name]-[ID]-[CHF model]-broyden1-[Power]
+		HTRF-Test-[Name]
+		|-- HTRF-Test-[Name]-beta_[beta]
+		    |-- HTRF-[Name]-[ID]
+			`-- HTRF-[Name]-[ID]-IRFC-[Fric]
+			    |-- HTRF-[Name]-[ID]-[CHF]-broyden1-[Power]
 ```
-	where:
-		- [Test Name]: HTRF test name: 166, 167, 168, 169 and 170;
-		- [beta coefficient]: beta is a mixing coefficient, for which sensetivity is performed in the test HTRF 166;
-		- [ID]: test ID in each of the test name;
-		- [Rod friction model]: rod friction model 5 is applied in all tests;
-		- [Power]: power at which DNBR = 1
-	2. Each HTRF test folder contain the CTF input deck template: **HTRF-Test-[Test Name]-CTF_deck_template.inp**
-		_e.g. CTF input deck template for test HTRF 166 HTRF-Test-166-CTF_deck_template.inp_
-	3. **HTRF-Test-[Test Name]\log_files** :Log files for searching tube bundle power at which DNBR = 1
+
+where:
+	- [Name]: HTRF test names are: 166, 167, 168, 169 and 170;
+	- [beta]: beta is a mixing coefficient, for which sensetivity is performed in the test HTRF 166;
+	- [ID]: test ID in each of the test name;
+	- [Fric]: rod friction model 5 is applied in all tests;
+	- [CHF]: Critical heat flux (CHF) model used in this work: W3, Groeneveld LUT, Bowring, Doroschuk LUT;
+	- [Power]: power at which DNBR = 1.
+
+2. Each HTRF test folder contain the CTF input deck template: **HTRF-Test-[Name]-CTF_deck_template.inp**
+
+	 e.g. CTF input deck template for test HTRF 166 HTRF-Test-166-CTF_deck_template.inp_
+
+3. **HTRF-Test-[Name]\log_files** :Log files for searching tube bundle power at which DNBR = 1
+
+4. Results for each test are in the CSV files in the corresponding folder: **HTRF-[Test Name]-DNB-Power-[CHF model]-beta_[beta].csv**
