@@ -21,11 +21,13 @@ In this study, an assessment of subchannel code CTF v3.5 in addressing the effec
 
 
 	1. Folders structure:
+```
 		HTRF-Test-[Test Name]
 		|-- HTRF-Test-[Test Name]-beta_[beta coefficient]
 		    |-- HTRF-[Test Name]-[ID]
 			`-- HTRF-[Test Name]-[ID]-IRFC-[Rod friction model]
 			    |-- HTRF-[Test Name]-[ID]-[CHF model]-broyden1-[Power]
+```
 	where:
 		- [Test Name]: HTRF test name: 166, 167, 168, 169 and 170;
 		- [beta coefficient]: beta is a mixing coefficient, for which sensetivity is performed in the test HTRF 166;
