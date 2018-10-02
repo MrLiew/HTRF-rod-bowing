@@ -19,7 +19,7 @@ URL: [http://www.epri.com/#/pages/product/NP-2609-V3P1/?lang=en](http://www.epri
 - Heat flux: average heat flux to the test section at CHF in Million Btu/hr-ft2
 - CHF rods: order of occurance of CHF; digits to the left of the decimal point designate the rod number, and digits to the right of the decimal point designate the axial location of circumferential location of the thermocouple detecting CHF.
 
-###### in US units
+###### in US units:
 	- HTRF_Test_166.dat
 	- HTRF_Test_167.dat
 	- HTRF_Test_168.dat
